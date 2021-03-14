@@ -2,7 +2,8 @@
 Makroscale->Usable Easy Program
 What is x percent of the value of y
 """
-def Percent_Str(*args):
+
+def Percent_Str(*args,):
     print('What is x percent of the value of y')
     x = input("How many percent (x) ")
     y = input('From what value (y)? ')
